@@ -1,15 +1,31 @@
-*.iml
+# Proyectos de Gradle y archivos de compilación
 .gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
 /build
+/*/build
+*.iml
+
+# Configuración de Android Studio / IntelliJ
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/libraries
+/.idea/caches
+/.idea/navEditor.xml
+/.idea/modules.xml
+/.idea/deploymentTargetDropDown.xml
+*.iws
+
+# Archivos generados localmente
+local.properties
+.DS_Store
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Logs
+*.log
+
+# Archivos temporales de Kotlin
+.kotlin
